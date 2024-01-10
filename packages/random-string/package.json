@@ -1,6 +1,6 @@
 {
   "name": "@devhiteshk/random-string",
-  "version": "0.0.3",
+  "version": "0.0.0",
   "description": "> TODO: description",
   "author": "devhiteshk <hitesh.k.83080@gmail.com>",
   "homepage": "",
@@ -17,6 +17,6 @@
     "test": "node ./__tests__/random-string.test.js"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "restricted"
   }
 }

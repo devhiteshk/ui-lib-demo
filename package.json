@@ -1,6 +1,6 @@
 {
   "name": "functions",
-  "private": false,
+  "private": true,
   "workspaces": [
     "packages/*"
   ],
