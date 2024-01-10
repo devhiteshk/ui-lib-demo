@@ -3,14 +3,14 @@
 const charactersSet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 // function returns random str
 // 1
-function randomString(len = 5) {
+function randomStringHundred(len = 5) {
   const str = [...Array(len)]
     .map((i) =>
       charactersSet.charAt(Math.floor(Math.random() * charactersSet.length))
     )
     .join("");
-  return str;
+  return str + "100";
 }
 
 // 2
-module.exports = randomString;
+module.exports = randomStringHundred;
